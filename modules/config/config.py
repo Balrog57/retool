@@ -184,8 +184,14 @@ class Config:
                 `user-config.yaml`, as this happens automatically through GUI use anyway.
                 Defaults to `False`.
         """
-        # Store the Retool version
-        self.retool_location: pathlib.Path = pathlib.Path(sys.argv[0]).resolve().parent
+        # Store the Retool location
+        if getattr(sys, 'frozen', False):
+            self.retool_location = pathlib.Path(sys.executable).parent
+            # Handle PyInstaller 6+ _internal folder structure if needed
+            if not (self.retool_location / 'config').exists() and (self.retool_location / '_internal' / 'config').exists():
+                self.retool_location = self.retool_location / '_internal'
+        else:
+            self.retool_location = pathlib.Path(sys.argv[0]).resolve().parent
 
         # Determine if STDOUT is being redirected or not
         self.stdout = False
@@ -199,12 +205,13 @@ class Config:
         # Check if internal config file exists (bundled with the application)
         def check_required_files(required_files: tuple[str, ...]) -> None:
             """
-            Checks if required files exist. If missing, displays a warning.
+            Checks if required files exist. If missing, displays a warning and exits.
             The application is designed to be self-contained with bundled config files.
 
             Args:
                 required_files (tuple[str]): A tuple of the files to check.
             """
+            missing = False
             for required_file in required_files:
                 file_path = pathlib.Path(self.retool_location).joinpath(required_file)
                 if not file_path.is_file():
@@ -215,6 +222,12 @@ class Config:
                         level='warning',
                         indent=0,
                     )
+                    missing = True
+            
+            if missing:
+                eprint(f'\n{Font.error_bold}Critical Error:{Font.end} Cannot start without configuration files.')
+                eprint('Exiting...')
+                sys.exit(1)
 
         check_required_files((config_file,))
 
