@@ -4,43 +4,35 @@
 > **Retool Unified** est un travail de préservation et d'évolution du projet original Retool.
 > J'ai fusionné les 3 dépôts originaux (programme, données, documentation) qui étaient à l'abandon pour en faire une **version unique, stable et 100% autonome**.
 
-Retool is a filter utility for [Redump](http://www.redump.org/) and [No-Intro](https://datomatic.no-intro.org/index.php?page=download)
-DAT files. By customizing the DAT files before you load them into a ROM manager, you can more
-effectively trim, consolidate, and deduplicate your ROM sets.
+Retool est un utilitaire de filtrage pour les fichiers DAT [Redump](http://www.redump.org/) et [No-Intro](https://datomatic.no-intro.org/index.php?page=download). En personnalisant les fichiers DAT avant de les charger dans un gestionnaire de ROMs, vous pouvez trier, consolider et dédupliquer vos ensembles de ROMs de manière plus efficace.
 
-![A screenshot of the main Retool screen](images/main-app.png)
+![Une capture d'écran de l'écran principal de Retool](images/main-app.png)
 
-Retool Unified offers the following features:
+Retool Unified offre les fonctionnalités suivantes :
 
-* **Fully Autonomous**: No external downloads required at startup. All configuration files, clone lists, and metadata are bundled with the application.
+* **Entièrement Autonome** : Aucun téléchargement externe requis au démarrage. Tous les fichiers de configuration, listes de clones et métadonnées sont inclus avec l'application.
 
-* Superior One Game, One ROM (1G1R) functionality compared to other tools.
+* Fonctionnalité One Game, One ROM (1G1R) supérieure à celle des autres outils.
 
-* Priority-based region and language filtering.
+* Filtrage basé sur la priorité des régions et des langues.
 
-* Exclusions of unwanted titles like demos, applications, and more.
+* Exclusion des titres indésirables comme les démos, les applications, et plus encore.
 
-* Custom regular expression filters for including or excluding titles.
+* Filtres d'expressions régulières personnalisés pour inclure ou exclure des titres.
 
-* Local filenames for titles, such as <code>シャイニング·フォースⅡ 『古の封印』</code>
-  instead of <code>Shining Force II - Inishie no Fuuin</code>.
+* Noms de fichiers locaux pour les titres, tels que <code>シャイニング·フォースⅡ 『古の封印』</code>
+  au lieu de <code>Shining Force II - Inishie no Fuuin</code>.
 
-* CLI and GUI versions.
+* Versions CLI (ligne de commande) et GUI (interface graphique).
 
-You add your DAT files to Retool, and it creates new DAT files with all your preferences,
-leaving the originals intact. You can then load the new DAT files in a ROM manager like
-[RomVault](https://www.romvault.com/), [CLRMamePro](https://mamedev.emulab.it/clrmamepro/),
-or [IGIR](https://www.igir.io) to do your file management &mdash; you just don't need to
-use their 1G1R modes, as Retool has already done the work for you.
+Vous ajoutez vos fichiers DAT à Retool, et il crée de nouveaux fichiers DAT avec toutes vos préférences, en laissant les originaux intacts. Vous pouvez ensuite charger les nouveaux fichiers DAT dans un gestionnaire de ROMs comme [RomVault](https://www.romvault.com/), [CLRMamePro](https://mamedev.emulab.it/clrmamepro/), ou [IGIR](https://www.igir.io) pour gérer vos fichiers &mdash; vous n'avez tout simplement pas besoin d'utiliser leurs modes 1G1R, car Retool a déjà fait le travail pour vous.
 
-Retool is supported on Windows 10+, Ubuntu 20+, and macOS 15+. Non-compiled versions
-require Python 3.10 or higher.
+Retool est supporté sur Windows 10+, Ubuntu 20+, et macOS 15+. Les versions non compilées nécessitent Python 3.10 ou supérieur.
 
-## Documentation and Data
+## Documentation et Données
 
-This repository now includes all necessary data:
-- `clonelists/`: Clone lists for 1G1R processing.
-- `metadata/`: Metadata files for improved filtering.
-- `config/`: Configuration files.
-- Documentation sources are also integrated.
-
+Ce dépôt inclut désormais toutes les données nécessaires :
+- `clonelists/` : Listes de clones pour le traitement 1G1R.
+- `metadata/` : Fichiers de métadonnées pour un filtrage amélioré.
+- `config/` : Fichiers de configuration.
+- Les sources de la documentation sont également intégrées.
