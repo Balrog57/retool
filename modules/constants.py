@@ -1,5 +1,5 @@
 # Set the user files and options
-__version__ = '2.5.1'
+__version__ = '2.5.2'
 CLONE_LIST_METADATA_DOWNLOAD_LOCATION: str = (
     'https://raw.githubusercontent.com/Balrog57/retool-clonelists-metadata/main'
 )

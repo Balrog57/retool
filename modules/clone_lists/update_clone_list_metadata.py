@@ -143,7 +143,7 @@ def update_clonelists_metadata(
             'https://raw.githubusercontent.com/Balrog57/retool-clonelists-metadata/dev'
         )
 
-    if gui_input:
+    if gui_input and config.user_input.user_clone_list_metadata_download_location:
         download_location = config.user_input.user_clone_list_metadata_download_location
 
     failed: bool = False
