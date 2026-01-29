@@ -4,7 +4,7 @@
 Filters DATs from [Redump](http://redump.org/) and [No-Intro](https://www.no-intro.org) to
 remove titles you don't want.
 
-https://github.com/unexpectedpanda/retool
+https://github.com/Balrog57/retool
 """
 
 import multiprocessing
@@ -289,7 +289,7 @@ class ThreadTask(qtc.QRunnable):
             pass
         except Exception:
             eprint(
-                'Retool has had an unexpected error. Please raise an issue at https://github.com/unexpectedpanda/retool/issues, '
+                'Retool has had an unexpected error. Please raise an issue at https://github.com/Balrog57/retool/issues, '
                 'attaching the DAT file that caused the problem and the following trace:\n',
                 level='error',
                 indent=0,

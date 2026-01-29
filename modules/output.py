@@ -493,7 +493,7 @@ class WriteFiles:
         dtd_line: str = ''
 
         if input_dat.datafile_tag == '<datafile>':
-            dtd_line = '<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "https://raw.githubusercontent.com/unexpectedpanda/retool-clonelists-metadata/main/datafile.dtd">'
+            dtd_line = '<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "https://raw.githubusercontent.com/Balrog57/retool-clonelists-metadata/main/datafile.dtd">'
 
         final_xml.append('<?xml version="1.0"?>\n')
 
@@ -527,7 +527,7 @@ class WriteFiles:
                     f'\t\t<version>{html.escape(input_dat.version, quote=False)}</version>\n',
                     f'\t\t<date>{dat_date}</date>\n',
                     f'\t\t<author>{input_dat.author}</author>\n',
-                    '\t\t<homepage>http://www.github.com/unexpectedpanda/retool</homepage>\n',
+                    '\t\t<homepage>http://www.github.com/Balrog57/retool</homepage>\n',
                     f'\t\t<url>{html.escape(input_dat.url, quote=False)}</url>\n',
                 ]
             )

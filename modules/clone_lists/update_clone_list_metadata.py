@@ -140,7 +140,7 @@ def update_clonelists_metadata(
 
     if config.user_input.dev_mode:
         download_location = (
-            'https://raw.githubusercontent.com/unexpectedpanda/retool-clonelists-metadata/dev'
+            'https://raw.githubusercontent.com/Balrog57/retool-clonelists-metadata/dev'
         )
 
     if gui_input:

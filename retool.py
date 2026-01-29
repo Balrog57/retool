@@ -5,7 +5,7 @@ Filters DAT files from [Redump](http://redump.org/) and
 [No-Intro](https://www.no-intro.org) to remove titles
 you don't want.
 
-https://github.com/unexpectedpanda/retool
+https://github.com/Balrog57/retool
 """
 
 import pathlib

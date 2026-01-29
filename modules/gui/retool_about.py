@@ -76,7 +76,7 @@ class Ui_AboutWindow(object):
 
     def retranslateUi(self, AboutWindow):
         AboutWindow.setWindowTitle(QCoreApplication.translate("AboutWindow", u"About Retool", None))
-        self.labelName.setText(QCoreApplication.translate("AboutWindow", u"<html><head/><body><p align=\"center\"><span style=\" font-weight:600;\">Retool<br/></span><a href=\"https://unexpectedpanda.github.io/retool\"><span style=\" text-decoration: underline; color:#0000ff;\">https://unexpectedpanda.github.io/retool</span></a></p></body></html>", None))
+        self.labelName.setText(QCoreApplication.translate("AboutWindow", u"<html><head/><body><p align=\"center\"><span style=\" font-weight:600;\">Retool<br/></span><a href=\"https://Balrog57.github.io/retool\"><span style=\" text-decoration: underline; color:#0000ff;\">https://Balrog57.github.io/retool</span></a></p></body></html>", None))
         self.labelVersion.setText(QCoreApplication.translate("AboutWindow", u"Retool version:", None))
         self.aboutLogo.setText("")
         self.labelCreditIcons8.setText(QCoreApplication.translate("AboutWindow", u"<html><head/><body><p>Some icons provided by <a href=\"https://icons8.com\"><span style=\" text-decoration: underline; color:#0000ff;\">Icons8</span></a></p></body></html>", None))
