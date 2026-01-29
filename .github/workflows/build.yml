@@ -39,6 +39,9 @@ jobs:
           uv pip install . --system
           uv pip install pyinstaller pyinstaller-hooks-contrib --system
 
+      - name: Pre-download assets (Config, Clone Lists, Metadata)
+        run: python scripts/download_assets.py
+
       - name: Get version from tag
         id: get_version
         shell: bash
@@ -46,7 +49,7 @@ jobs:
 
       - name: Build with PyInstaller
         run: |
-          pyinstaller --noconfirm --onedir --icon "images/retool.ico" --upx-dir "C:\upx" --collect-submodules grapheme --collect-submodules PySide6 --collect-submodules lxml --collect-submodules psutil --collect-submodules dateutil --collect-submodules strictyaml --collect-submodules validators --collect-submodules darkdetect --collect-submodules alive_progress --collect-submodules shiboken6 retoolgui.py
+          pyinstaller --noconfirm --onedir --icon "images/retool.ico" --upx-dir "C:\upx" --add-data "config;config" --add-data "clonelists;clonelists" --add-data "metadata;metadata" --add-data "mias;mias" --add-data "retroachievements;retroachievements" --collect-submodules grapheme --collect-submodules PySide6 --collect-submodules lxml --collect-submodules psutil --collect-submodules dateutil --collect-submodules strictyaml --collect-submodules validators --collect-submodules darkdetect --collect-submodules alive_progress --collect-submodules shiboken6 retoolgui.py
 
       - name: Create zip archive
         shell: pwsh
