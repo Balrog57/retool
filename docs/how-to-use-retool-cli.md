@@ -170,7 +170,7 @@ To read about the different ways you can match titles, see
 
 !!! note
     If Retool has genuinely missed a relationship between titles, please don't just
-    create an override &mdash; [create an issue](https://github.com/unexpectedpanda/retool/issues)
+    create an override &mdash; [create an issue](https://github.com/Balrog57/retool/issues)
     too so the clone lists or Retool can be updated.
 
 ### Post filters

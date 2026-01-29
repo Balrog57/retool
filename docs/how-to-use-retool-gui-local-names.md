@@ -9,7 +9,7 @@ hide:
     Local names are a [work in progress](#wip), and need community help to complete. You
     can contribute directly by [editing clone lists](contribute-clone-lists.md) and
     [filing a pull request](contribute-clone-lists-pull-request.md), or if you're not
-    familiar with code, by [filing an issue](https://github.com/unexpectedpanda/retool/issues).
+    familiar with code, by [filing an issue](https://github.com/Balrog57/retool/issues).
 
 The No-Intro and Redump standard is to romanize title names from languages that don't
 use a Latin-based alphabet. They also restrict filenames to the

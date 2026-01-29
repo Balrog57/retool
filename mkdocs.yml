@@ -1,6 +1,6 @@
 site_name: Retool
-site_dir: ../unexpectedpanda.github.io/retool/
-site_url: https://unexpectedpanda.github.io/retool/
+site_dir: ../Balrog57.github.io/retool/
+site_url: https://Balrog57.github.io/retool/
 theme:
   name: material
   custom_dir: docs/overrides
@@ -50,9 +50,9 @@ extra:
     property: G-P63E119561
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/unexpectedpanda/retool
+      link: https://github.com/Balrog57/retool
   generator: false
-repo_url: https://github.com/unexpectedpanda/retool
+repo_url: https://github.com/Balrog57/retool
 nav:
   - index.md
   - download.md

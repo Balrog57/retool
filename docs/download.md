@@ -54,7 +54,7 @@ the operating system you use.
     1.  Clone Retool from its repository:
 
         ```
-        git clone https://github.com/unexpectedpanda/retool.git
+        git clone https://github.com/Balrog57/retool.git
         ```
 
     1.  Install Retool's dependencies, either with Pip or [Hatch](https://hatch.pypa.io/):

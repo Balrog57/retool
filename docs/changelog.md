@@ -800,7 +800,7 @@ Here are the changes for 2.4.0:
     `retool` or `retoolgui` from anywhere.
 
     Want to try it out?
-    [Clone Retool from the GitHub repo](https://unexpectedpanda.github.io/retool/download/#git-and-python-gui-and-cli),
+    [Clone Retool from the GitHub repo](https://Balrog57.github.io/retool/download/#git-and-python-gui-and-cli),
     navigate to the folder it was cloned to, then install it as a package with
     `pip install .`. Retool is then installed to your Python scripts folder, and your
     config files, clone lists, and metadata files are also kept there. Providing that
@@ -1621,7 +1621,7 @@ A minor update to fix system user filters for No-Intro's _Redump Custom DATs_.
 
 Retool 2.0 is here in beta form. Ten months in the making, it'll be in beta for
 a few more months to get feedback and fix bugs found by users. Retool 1.x is
-still available from the [v1 branch](https://github.com/unexpectedpanda/retool/tree/v1),
+still available from the [v1 branch](https://github.com/Balrog57/retool/tree/v1),
 although it won't receive clone list updates from this point, and issues will
 only be fixed for v2.
 
@@ -1663,7 +1663,7 @@ Improvement 0.53 > 2.00.0: 84x speed increase
 | 2.00.0         | 21.72s           | 15.88x            |
 
 Additionally, large and complex DATs like _Nintendo 3DS (Digital) (CDN)_ now
-actually finish processing in a reasonable time. A Retool user [timed that DAT](https://github.com/unexpectedpanda/retool/issues/224)
+actually finish processing in a reasonable time. A Retool user [timed that DAT](https://github.com/Balrog57/retool/issues/224)
 to take 72,776 seconds on an Intel Core i7 8700K, which equates to 20 hours, 13
 minutes. Retool v2 finishes it on the same processor in 245 seconds, which is
 297x faster.
@@ -1986,7 +1986,7 @@ Check out the following list for other changes that have come in v2.
 
 <h3>Quality of life updates</h3>
 
--   There's a [brand new Retool website and documentation](https://unexpectedpanda.github.io/retool).
+-   There's a [brand new Retool website and documentation](https://Balrog57.github.io/retool).
 
 -   Retool can now cope with a user entering a trailing backslash in a path in
     Windows.
@@ -2278,7 +2278,7 @@ Check out the following list for other changes that have come in v2.
 -   Unlicensed titles now get demoted if there's a production title in the same
     region.
 
--   Clone lists and metadata have been moved to their own [repository](https://github.com/unexpectedpanda/retool-clonelists-metadata).
+-   Clone lists and metadata have been moved to their own [repository](https://github.com/Balrog57/retool-clonelists-metadata).
     This is in preparation for the shift to Retool v2.
 
 -   Retool CLI now prompts you to download clone lists and metadata if it finds

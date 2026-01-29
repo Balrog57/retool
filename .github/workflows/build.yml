@@ -39,9 +39,6 @@ jobs:
           uv pip install . --system
           uv pip install pyinstaller pyinstaller-hooks-contrib --system
 
-      - name: Pre-download assets (Config, Clone Lists, Metadata)
-        run: python scripts/download_assets.py
-
       - name: Get version from tag
         id: get_version
         shell: bash

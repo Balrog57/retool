@@ -196,68 +196,28 @@ class Config:
         # Create the stats object
         self.stats = Stats()
 
-        # Download the internal config file if it's missing
-        def download_required_files(download_files: tuple[str, ...]) -> None:
+        # Check if internal config file exists (bundled with the application)
+        def check_required_files(required_files: tuple[str, ...]) -> None:
             """
-            Downloads the files Retool requires to operate.
+            Checks if required files exist. If missing, displays a warning.
+            The application is designed to be self-contained with bundled config files.
 
             Args:
-                download_files (tuple[str]): A tuple of the files to download.
+                required_files (tuple[str]): A tuple of the files to check.
             """
-            required_files: str = ''.join(
-                [f'\n• {Font.b}{x}{Font.warning}' for x in download_files]
-            )
-            download_config: str = ''
-            missing_file: bool = False
-
-            for download_file in download_files:
-                if not pathlib.Path(self.retool_location).joinpath(download_file).is_file():
-                    missing_file = True
-
-            if missing_file:
-                while not download_config or not (download_config == 'y' or download_config == 'n'):
+            for required_file in required_files:
+                file_path = pathlib.Path(self.retool_location).joinpath(required_file)
+                if not file_path.is_file():
                     eprint(
-                        f'{Font.warning_bold}Warning:{Font.warning} One or more '
-                        'of the following files are missing, which Retool needs '
-                        'to operate:',
+                        f'{Font.warning_bold}Warning:{Font.warning} Required file '
+                        f'{Font.b}{required_file}{Font.warning} is missing. '
+                        'Please ensure the application is properly installed.',
                         level='warning',
                         indent=0,
                     )
-                    eprint(f'{required_files}', level='warning', wrap=False)
 
-                    eprint('\nWould you like to download them? (y/n) > ', level='warning')
+        check_required_files((config_file,))
 
-                    download_config = input()
-
-                if download_config.lower() == 'y':
-                    eprint('')
-                    for download_file in download_files:
-                        eprint(
-                            f'• Downloading {Font.b}{download_file}{Font.be}... ',
-                            sep=' ',
-                            end='',
-                            flush=True,
-                        )
-                        failed = download(
-                            (
-                                f'{clone_list_metadata_download_location}/{download_file}',
-                                str(pathlib.Path(self.retool_location).joinpath(download_file)),
-                            ),
-                            False,
-                        )
-
-                        if not failed:
-                            eprint('done.')
-
-                    eprint('\n')
-                else:
-                    eprint('\nExiting...\n')
-                    sys.exit(1)
-
-                # Check that the files are there now for Retool to start
-                download_required_files(download_files)
-
-        download_required_files((config_file,))
 
         # Make sure the config file is relative to wherever Retool is located
         self.config_file = pathlib.Path(self.retool_location).joinpath(config_file)

@@ -13,10 +13,10 @@ titles, and even additional data like local title names.
 
 Contributing to Retool's clone lists directly involves code and being familiar with Git
 and GitHub. If that's not something you're interested in, you can still request clone list
-changes by [filing an issue](https://github.com/unexpectedpanda/retool/issues).
+changes by [filing an issue](https://github.com/Balrog57/retool/issues).
 
-If you want to contribute directly, [fork the clone lists and metadata repository](https://github.com/unexpectedpanda/retool-clonelists-metadata), read the following guidelines, make your
-changes, and then submit a [pull request](https://github.com/unexpectedpanda/retool-clonelists-metadata/pulls).
+If you want to contribute directly, [fork the clone lists and metadata repository](https://github.com/Balrog57/retool-clonelists-metadata), read the following guidelines, make your
+changes, and then submit a [pull request](https://github.com/Balrog57/retool-clonelists-metadata/pulls).
 
 ## Before you begin
 

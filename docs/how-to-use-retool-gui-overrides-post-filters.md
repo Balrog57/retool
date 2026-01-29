@@ -10,7 +10,7 @@ post filters.
 
 !!! note
     If Retool has genuinely missed a relationship between titles, don't just create an
-    override or post filter &mdash; [create an issue](https://github.com/unexpectedpanda/retool/issues)
+    override or post filter &mdash; [create an issue](https://github.com/Balrog57/retool/issues)
     too so the clone lists or Retool can be updated.
 
 ## Overrides
