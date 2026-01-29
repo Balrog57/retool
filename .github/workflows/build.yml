@@ -27,7 +27,6 @@ jobs:
       - name: Install UPX
         shell: pwsh
         run: |
-          # Download and extract UPX
           $upxVersion = "4.2.4"
           $upxUrl = "https://github.com/upx/upx/releases/download/v$upxVersion/upx-$upxVersion-win64.zip"
           Invoke-WebRequest -Uri $upxUrl -OutFile upx.zip
@@ -35,18 +34,19 @@ jobs:
           Rename-Item -Path "C:\upx-$upxVersion-win64" -NewName "C:\upx"
           Write-Host "UPX installed at C:\upx"
 
-      - name: Install Hatch and project dependencies
+      - name: Install dependencies
         run: |
-          uv pip install hatch hatch-pyinstaller --system
           uv pip install . --system
+          uv pip install pyinstaller pyinstaller-hooks-contrib --system
 
       - name: Get version from tag
         id: get_version
         shell: bash
         run: echo "VERSION=${GITHUB_REF#refs/tags/v}" >> $GITHUB_OUTPUT
 
-      - name: Build with PyInstaller via Hatch
-        run: hatch build --target pyinstaller
+      - name: Build with PyInstaller
+        run: |
+          pyinstaller --noconfirm --onedir --icon "images/retool.ico" --upx-dir "C:\upx" --collect-submodules grapheme --collect-submodules PySide6 --collect-submodules lxml --collect-submodules psutil --collect-submodules dateutil --collect-submodules strictyaml --collect-submodules validators --collect-submodules darkdetect --collect-submodules alive_progress --collect-submodules shiboken6 retoolgui.py
 
       - name: Create zip archive
         shell: pwsh

@@ -52,7 +52,7 @@ path = "modules/constants.py"
 require-runtime-dependencies = true
 scriptname = "retoolgui.py"
 flags = ['-iimages/retool.ico', "--upx-dir=c:/upx", "--noconfirm"]
-collect-submodules = ["grapheme"]
+collect-submodules = ["grapheme", "PySide6", "shiboken6", "lxml", "psutil", "dateutil", "strictyaml", "validators", "darkdetect", "alive_progress"]
 log-level = "WARN"
 zip = false
 
