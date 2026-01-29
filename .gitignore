@@ -4,12 +4,13 @@
 *.xlsx
 debug.log
 __pycache__/
-clonelists/
-config/
-config/systems/*.yaml
-metadata/
-mias/
-retroachievements/
+# Exclusions retirées pour rendre l'application autonome
+# clonelists/
+# config/
+# config/systems/*.yaml
+# metadata/
+# mias/
+# retroachievements/
 
 !.gitattributes
 !.gitignore
