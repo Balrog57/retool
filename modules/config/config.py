@@ -190,7 +190,7 @@ class Config:
         # Determine if STDOUT is being redirected or not
         self.stdout = False
 
-        if not sys.stdout.isatty():
+        if sys.stdout and not sys.stdout.isatty():
             self.stdout = True
 
         # Create the stats object
