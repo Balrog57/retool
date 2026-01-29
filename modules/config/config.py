@@ -376,15 +376,15 @@ class Config:
                     if 'minimumVersion' in config_file_content['description']:
                         self.minimum_version = config_file_content['description']['minimumVersion']
 
-                if clone_list_metadata_download_location_key in config_file_content:
-                    self.clone_list_metadata_download_location = config_file_content[
-                        clone_list_metadata_download_location_key
-                    ]
+                # if clone_list_metadata_download_location_key in config_file_content:
+                #     self.clone_list_metadata_download_location = config_file_content[
+                #         clone_list_metadata_download_location_key
+                #     ]
 
-                if program_download_location_key in config_file_content:
-                    self.program_download_location = config_file_content[
-                        program_download_location_key
-                    ]
+                # if program_download_location_key in config_file_content:
+                #     self.program_download_location = config_file_content[
+                #         program_download_location_key
+                #     ]
 
                 if region_order_key in config_file_content:
                     self.region_order_default = list(config_file_content[region_order_key])
