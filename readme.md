@@ -1,16 +1,18 @@
-# Retool
+# Retool Unified
 
-> [!TIP]
-> **This is the source repository for Retool. For downloads, installation instructions, and
-  documentation, see the [website](https://Balrog57.github.io/retool/).**
+> [!IMPORTANT]
+> **Retool Unified** est un travail de préservation et d'évolution du projet original Retool.
+> J'ai fusionné les 3 dépôts originaux (programme, données, documentation) qui étaient à l'abandon pour en faire une **version unique, stable et 100% autonome**.
 
 Retool is a filter utility for [Redump](http://www.redump.org/) and [No-Intro](https://datomatic.no-intro.org/index.php?page=download)
 DAT files. By customizing the DAT files before you load them into a ROM manager, you can more
 effectively trim, consolidate, and deduplicate your ROM sets.
 
-![A screenshot of the main Retool screen](https://Balrog57.github.io/retool/images/main-app.png)
+![A screenshot of the main Retool screen](images/main-app.png)
 
-Retool offers the following features:
+Retool Unified offers the following features:
+
+* **Fully Autonomous**: No external downloads required at startup. All configuration files, clone lists, and metadata are bundled with the application.
 
 * Superior One Game, One ROM (1G1R) functionality compared to other tools.
 
@@ -34,7 +36,11 @@ use their 1G1R modes, as Retool has already done the work for you.
 Retool is supported on Windows 10+, Ubuntu 20+, and macOS 15+. Non-compiled versions
 require Python 3.10 or higher.
 
-## Contribute to Retool
+## Documentation and Data
 
-If you've found something Retool has missed, like a clone or a local name for a title, you
-can contribute to Retool's clone lists at their [dedicated repository](https://github.com/Balrog57/retool-clonelists-metadata).
+This repository now includes all necessary data:
+- `clonelists/`: Clone lists for 1G1R processing.
+- `metadata/`: Metadata files for improved filtering.
+- `config/`: Configuration files.
+- Documentation sources are also integrated.
+

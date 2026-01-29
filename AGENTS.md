@@ -154,5 +154,12 @@ if TYPE_CHECKING:
 5. Use `hatch run all` for comprehensive validation before major commits
 
 ## Project Status
-
-Note: This project is marked as "no longer maintained" as of issue #337. When making changes, prioritize stability and avoid unnecessary refactoring.
+ 
+ **Retool Unified**: Active Preservation and Development.
+ 
+ This project merges the three original repositories (program, data, documentation) into a single, unified, and stable repository.
+ 
+ Key changes in Unified version:
+ - **Autonomy**: All assets (clonelists, metadata, config) are bundled. No external downloads at startup.
+ - **Unification**: Single repo for code and data.
+ - **Stability**: Focus on robust, standalone operation.
