@@ -603,10 +603,10 @@ def init_gui_global(
     main_window.ui.actionCloneListNameTool.triggered.connect(lambda: CloneListNameToolWindow())
     main_window.new_window = TitleToolWindow(config)
     main_window.ui.actionDocs.triggered.connect(
-        lambda: webbrowser.open('https://unexpectedpanda.github.io/retool/')
+        lambda: webbrowser.open('https://Balrog57.github.io/retool/')
     )
     main_window.ui.actionGitHub.triggered.connect(
-        lambda: webbrowser.open('https://github.com/unexpectedpanda/retool/issues')
+        lambda: webbrowser.open('https://github.com/Balrog57/retool/issues')
     )
 
     # Set up the menu items

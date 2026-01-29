@@ -11,7 +11,7 @@ config_dir = pathlib.Path('config')
 config_dir.mkdir(exist_ok=True)
 config_file = config_dir / 'internal-config.json'
 
-url = 'https://raw.githubusercontent.com/unexpectedpanda/retool-clonelists-metadata/main/config/internal-config.json'
+url = 'https://raw.githubusercontent.com/Balrog57/retool-clonelists-metadata/main/config/internal-config.json'
 
 print(f"Bootstrapping: Downloading {url} to {config_file}")
 try:

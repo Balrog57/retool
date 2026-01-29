@@ -1,10 +1,10 @@
 # Set the user files and options
-__version__ = '2.4.8'
+__version__ = '2.4.9'
 CLONE_LIST_METADATA_DOWNLOAD_LOCATION: str = (
-    'https://raw.githubusercontent.com/unexpectedpanda/retool-clonelists-metadata/main'
+    'https://raw.githubusercontent.com/Balrog57/retool-clonelists-metadata/main'
 )
 CLONE_LIST_METADATA_DOWNLOAD_LOCATION_KEY: str = 'cloneListMetadataUrl'
-PROGRAM_DOWNLOAD_LOCATION: str = 'https://raw.githubusercontent.com/unexpectedpanda/retool/main'
+PROGRAM_DOWNLOAD_LOCATION: str = 'https://raw.githubusercontent.com/Balrog57/retool/main'
 PROGRAM_DOWNLOAD_LOCATION_KEY: str = 'programUrl'
 CONFIG_FILE: str = 'config/internal-config.json'
 DAT_FILE_TAGS_KEY: str = 'datFileTags'
