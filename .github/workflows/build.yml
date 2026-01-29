@@ -3,7 +3,7 @@ name: Build and Release
 on:
   push:
     tags:
-      - 'v*'
+      - "v*"
 
 permissions:
   contents: write
@@ -11,7 +11,7 @@ permissions:
 jobs:
   build-windows:
     runs-on: windows-latest
-    
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -19,13 +19,26 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.13'
+          python-version: "3.13"
 
       - name: Install UV
         uses: astral-sh/setup-uv@v5
 
-      - name: Install Hatch
-        run: uv pip install hatch hatch-pyinstaller --system
+      - name: Install UPX
+        shell: pwsh
+        run: |
+          # Download and extract UPX
+          $upxVersion = "4.2.4"
+          $upxUrl = "https://github.com/upx/upx/releases/download/v$upxVersion/upx-$upxVersion-win64.zip"
+          Invoke-WebRequest -Uri $upxUrl -OutFile upx.zip
+          Expand-Archive -Path upx.zip -DestinationPath C:\
+          Rename-Item -Path "C:\upx-$upxVersion-win64" -NewName "C:\upx"
+          Write-Host "UPX installed at C:\upx"
+
+      - name: Install Hatch and project dependencies
+        run: |
+          uv pip install hatch hatch-pyinstaller --system
+          uv pip install . --system
 
       - name: Get version from tag
         id: get_version
