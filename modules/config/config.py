@@ -185,7 +185,15 @@ class Config:
                 Defaults to `False`.
         """
         # Store the Retool version
-        self.retool_location: pathlib.Path = pathlib.Path(sys.argv[0]).resolve().parent
+        if getattr(sys, 'frozen', False):
+            self.retool_location = pathlib.Path(sys.executable).parent
+            # Handle PyInstaller 6+ _internal folder structure if needed
+            if not (self.retool_location / 'config').exists() and (
+                self.retool_location / '_internal' / 'config'
+            ).exists():
+                self.retool_location = self.retool_location / '_internal'
+        else:
+            self.retool_location = pathlib.Path(sys.argv[0]).resolve().parent
 
         # Determine if STDOUT is being redirected or not
         self.stdout = False
@@ -215,47 +223,17 @@ class Config:
                     missing_file = True
 
             if missing_file:
-                while not download_config or not (download_config == 'y' or download_config == 'n'):
-                    eprint(
-                        f'{Font.warning_bold}Warning:{Font.warning} One or more '
-                        'of the following files are missing, which Retool needs '
-                        'to operate:',
-                        level='warning',
-                        indent=0,
-                    )
-                    eprint(f'{required_files}', level='warning', wrap=False)
-
-                    eprint('\nWould you like to download them? (y/n) > ', level='warning')
-
-                    download_config = input()
-
-                if download_config.lower() == 'y':
-                    eprint('')
-                    for download_file in download_files:
-                        eprint(
-                            f'• Downloading {Font.b}{download_file}{Font.be}... ',
-                            sep=' ',
-                            end='',
-                            flush=True,
-                        )
-                        failed = download(
-                            (
-                                f'{clone_list_metadata_download_location}/{download_file}',
-                                str(pathlib.Path(self.retool_location).joinpath(download_file)),
-                            ),
-                            False,
-                        )
-
-                        if not failed:
-                            eprint('done.')
-
-                    eprint('\n')
-                else:
-                    eprint('\nExiting...\n')
-                    sys.exit(1)
-
-                # Check that the files are there now for Retool to start
-                download_required_files(download_files)
+                eprint(
+                    f'{Font.warning_bold}Warning:{Font.warning} One or more '
+                    'of the following files are missing, which Retool needs '
+                    'to operate:',
+                    level='warning',
+                    indent=0,
+                )
+                eprint(f'{required_files}', level='warning', wrap=False)
+                eprint('\nCannot download files in non-interactive mode. Please ensure all data files are present.', level='error')
+                eprint('Exiting...\n')
+                sys.exit(1)
 
         download_required_files((config_file,))
 

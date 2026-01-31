@@ -1,0 +1,687 @@
+{
+	"32X Sample Program - PWM Sound Demo (USA) (Demo)": {
+		"languages": ["En"]
+	},
+	"240p Test Suite (World) (Program) (Aftermarket) (Unl)": {
+		"languages": ["En"]
+	},
+	"[BIOS] 32X M68000 (USA)": {
+		"languages": ["En"]
+	},
+	"[BIOS] 32X SH-2 Master (USA)": {
+		"languages": ["En"]
+	},
+	"[BIOS] 32X SH-2 Slave (USA)": {
+		"languages": ["En"]
+	},
+	"After Burner Complete (Europe)": {
+		"languages": ["En"]
+	},
+	"After Burner Complete (Japan, USA) (En)": {
+		"languages": ["En"]
+	},
+	"Amazing Spider-Man, The - Web of Fire (USA) (Beta)": {
+		"languages": ["En"]
+	},
+	"Amazing Spider-Man, The - Web of Fire (USA)": {
+		"languages": ["En"]
+	},
+	"BC Racers (USA)": {
+		"languages": ["En"]
+	},
+	"Blackthorne (USA)": {
+		"languages": ["En"]
+	},
+	"Brutal - Above the Claw (USA)": {
+		"languages": ["En"]
+	},
+	"ClayFighter 2 (USA) (Proto)": {
+		"languages": ["En"]
+	},
+	"CMD Download Cartridge (USA) (Proto) (Program)": {
+		"languages": ["En"]
+	},
+	"Cosmic Carnage (Europe)": {
+		"languages": ["En"]
+	},
+	"Cosmic Carnage (Japan, USA) (En) (Beta 1)": {
+		"languages": ["En"]
+	},
+	"Cosmic Carnage (Japan, USA) (En) (Beta 2)": {
+		"languages": ["En"]
+	},
+	"Cosmic Carnage (Japan, USA) (En) (Beta 3)": {
+		"languages": ["En"]
+	},
+	"Cosmic Carnage (Japan, USA) (En) (Beta 4)": {
+		"languages": ["En"]
+	},
+	"Cosmic Carnage (Japan, USA) (En) (Beta 5)": {
+		"languages": ["En"]
+	},
+	"Cosmic Carnage (Japan, USA) (En) (Beta 6)": {
+		"languages": ["En"]
+	},
+	"Cosmic Carnage (Japan, USA) (En) (Beta 7)": {
+		"languages": ["En"]
+	},
+	"Cosmic Carnage (Japan, USA) (En) (Beta 8)": {
+		"languages": ["En"]
+	},
+	"Cosmic Carnage (Japan, USA) (En)": {
+		"languages": ["En"]
+	},
+	"Darxide (Europe) (En,Fr,De,Es)": {
+		"languages": ["De", "En", "Es", "Fr"]
+	},
+	"Doom (Europe)": {
+		"languages": ["En"]
+	},
+	"Doom (Japan, USA) (En) (Beta 1)": {
+		"languages": ["En"]
+	},
+	"Doom (Japan, USA) (En) (Beta 2)": {
+		"languages": ["En"]
+	},
+	"Doom (Japan, USA) (En) (Beta 3)": {
+		"languages": ["En"]
+	},
+	"Doom (Japan, USA) (En) (Beta 4)": {
+		"languages": ["En"]
+	},
+	"Doom (Japan, USA) (En) (Beta 5)": {
+		"languages": ["En"]
+	},
+	"Doom (Japan, USA) (En) (Beta 6)": {
+		"languages": ["En"]
+	},
+	"Doom (Japan, USA) (En) (Beta 7)": {
+		"languages": ["En"]
+	},
+	"Doom (Japan, USA) (En) (Beta 8)": {
+		"languages": ["En"]
+	},
+	"Doom (Japan, USA) (En) (Beta 9)": {
+		"languages": ["En"]
+	},
+	"Doom (Japan, USA) (En)": {
+		"languages": ["En"]
+	},
+	"Doom RR (Japan, USA) (En) (Beta 1)": {
+		"languages": ["En"]
+	},
+	"Doom RR (Japan, USA) (En) (Beta 2)": {
+		"languages": ["En"]
+	},
+	"Doom RR (Japan, USA) (En) (Beta 3)": {
+		"languages": ["En"]
+	},
+	"Ecco the Dolphin (USA) (Auto Demo)": {
+		"languages": ["En"]
+	},
+	"FIFA Soccer 96 (Europe) (En,Fr,De,Es,It,Sv)": {
+		"languages": ["De", "En", "Es", "Fr", "It", "Sv"]
+	},
+	"Golf Magazine Presents - 36 Great Holes Starring Fred Couples (Europe) (Beta 1)": {
+		"languages": ["En"]
+	},
+	"Golf Magazine Presents - 36 Great Holes Starring Fred Couples (Europe) (Beta 2)": {
+		"languages": ["En"]
+	},
+	"Golf Magazine Presents - 36 Great Holes Starring Fred Couples (Europe)": {
+		"languages": ["En"]
+	},
+	"Golf Magazine Presents - 36 Great Holes Starring Fred Couples (Japan, USA) (En) (Beta 1)": {
+		"languages": ["En"]
+	},
+	"Golf Magazine Presents - 36 Great Holes Starring Fred Couples (Japan, USA) (En) (Beta 2)": {
+		"languages": ["En"]
+	},
+	"Golf Magazine Presents - 36 Great Holes Starring Fred Couples (Japan, USA) (En) (Beta 3)": {
+		"languages": ["En"]
+	},
+	"Golf Magazine Presents - 36 Great Holes Starring Fred Couples (Japan, USA) (En) (Beta 4)": {
+		"languages": ["En"]
+	},
+	"Golf Magazine Presents - 36 Great Holes Starring Fred Couples (Japan, USA) (En) (Beta 5)": {
+		"languages": ["En"]
+	},
+	"Golf Magazine Presents - 36 Great Holes Starring Fred Couples (Japan, USA) (En) (Beta 6)": {
+		"languages": ["En"]
+	},
+	"Golf Magazine Presents - 36 Great Holes Starring Fred Couples (Japan, USA) (En) (Beta 7)": {
+		"languages": ["En"]
+	},
+	"Golf Magazine Presents - 36 Great Holes Starring Fred Couples (Japan, USA) (En) (Beta 8)": {
+		"languages": ["En"]
+	},
+	"Golf Magazine Presents - 36 Great Holes Starring Fred Couples (Japan, USA) (En) (Beta 9)": {
+		"languages": ["En"]
+	},
+	"Golf Magazine Presents - 36 Great Holes Starring Fred Couples (Japan, USA) (En) (Beta 10)": {
+		"languages": ["En"]
+	},
+	"Golf Magazine Presents - 36 Great Holes Starring Fred Couples (Japan, USA) (En) (Beta 11)": {
+		"languages": ["En"]
+	},
+	"Golf Magazine Presents - 36 Great Holes Starring Fred Couples (Japan, USA) (En) (Beta 12)": {
+		"languages": ["En"]
+	},
+	"Golf Magazine Presents - 36 Great Holes Starring Fred Couples (Japan, USA) (En) (Beta 13)": {
+		"languages": ["En"]
+	},
+	"Golf Magazine Presents - 36 Great Holes Starring Fred Couples (Japan, USA) (En) (Beta 14)": {
+		"languages": ["En"]
+	},
+	"Golf Magazine Presents - 36 Great Holes Starring Fred Couples (Japan, USA) (En) (Beta 15)": {
+		"languages": ["En"]
+	},
+	"Golf Magazine Presents - 36 Great Holes Starring Fred Couples (Japan, USA) (En) (Beta 16)": {
+		"languages": ["En"]
+	},
+	"Golf Magazine Presents - 36 Great Holes Starring Fred Couples (Japan, USA) (En) (Beta 17)": {
+		"languages": ["En"]
+	},
+	"Golf Magazine Presents - 36 Great Holes Starring Fred Couples (Japan, USA) (En) (Beta 18)": {
+		"languages": ["En"]
+	},
+	"Golf Magazine Presents - 36 Great Holes Starring Fred Couples (Japan, USA) (En) (Beta 19)": {
+		"languages": ["En"]
+	},
+	"Golf Magazine Presents - 36 Great Holes Starring Fred Couples (Japan, USA) (En) (Beta 20)": {
+		"languages": ["En"]
+	},
+	"Golf Magazine Presents - 36 Great Holes Starring Fred Couples (Japan, USA) (En) (Beta 21)": {
+		"languages": ["En"]
+	},
+	"Golf Magazine Presents - 36 Great Holes Starring Fred Couples (Japan, USA) (En) (Beta 22)": {
+		"languages": ["En"]
+	},
+	"Golf Magazine Presents - 36 Great Holes Starring Fred Couples (Japan, USA) (En) (Beta 23)": {
+		"languages": ["En"]
+	},
+	"Golf Magazine Presents - 36 Great Holes Starring Fred Couples (Japan, USA) (En) (Beta 24)": {
+		"languages": ["En"]
+	},
+	"Golf Magazine Presents - 36 Great Holes Starring Fred Couples (Japan, USA) (En) (Beta 25)": {
+		"languages": ["En"]
+	},
+	"Golf Magazine Presents - 36 Great Holes Starring Fred Couples (Japan, USA) (En) (Beta 26)": {
+		"languages": ["En"]
+	},
+	"Golf Magazine Presents - 36 Great Holes Starring Fred Couples (Japan, USA) (En) (Beta 27)": {
+		"languages": ["En"]
+	},
+	"Golf Magazine Presents - 36 Great Holes Starring Fred Couples (Japan, USA) (En) (Beta 28)": {
+		"languages": ["En"]
+	},
+	"Golf Magazine Presents - 36 Great Holes Starring Fred Couples (Japan, USA) (En) (Beta 29)": {
+		"languages": ["En"]
+	},
+	"Golf Magazine Presents - 36 Great Holes Starring Fred Couples (Japan, USA) (En) (Beta 30)": {
+		"languages": ["En"]
+	},
+	"Golf Magazine Presents - 36 Great Holes Starring Fred Couples (Japan, USA) (En) (Beta 31)": {
+		"languages": ["En"]
+	},
+	"Golf Magazine Presents - 36 Great Holes Starring Fred Couples (Japan, USA) (En) (Beta 32)": {
+		"languages": ["En"]
+	},
+	"Golf Magazine Presents - 36 Great Holes Starring Fred Couples (Japan, USA) (En)": {
+		"languages": ["En"]
+	},
+	"Knuckles' Chaotix (Europe)": {
+		"languages": ["En"]
+	},
+	"Knuckles' Chaotix (Japan, USA) (En) (Beta 1)": {
+		"languages": ["En"]
+	},
+	"Knuckles' Chaotix (Japan, USA) (En) (Beta 2)": {
+		"languages": ["En"]
+	},
+	"Knuckles' Chaotix (Japan, USA) (En) (Beta 3)": {
+		"languages": ["En"]
+	},
+	"Knuckles' Chaotix (Japan, USA) (En) (Beta 4)": {
+		"languages": ["En"]
+	},
+	"Knuckles' Chaotix (Japan, USA) (En) (Beta 5)": {
+		"languages": ["En"]
+	},
+	"Knuckles' Chaotix (Japan, USA) (En) (Beta 6)": {
+		"languages": ["En"]
+	},
+	"Knuckles' Chaotix (Japan, USA) (En) (Beta 7)": {
+		"languages": ["En"]
+	},
+	"Knuckles' Chaotix (Japan, USA) (En) (Beta 8)": {
+		"languages": ["En"]
+	},
+	"Knuckles' Chaotix (Japan, USA) (En) (Beta 9)": {
+		"languages": ["En"]
+	},
+	"Knuckles' Chaotix (Japan, USA) (En) (Beta 10)": {
+		"languages": ["En"]
+	},
+	"Knuckles' Chaotix (Japan, USA) (En) (Beta 11)": {
+		"languages": ["En"]
+	},
+	"Knuckles' Chaotix (Japan, USA) (En) (Beta 12)": {
+		"languages": ["En"]
+	},
+	"Knuckles' Chaotix (Japan, USA) (En)": {
+		"languages": ["En"]
+	},
+	"Kolibri (USA, Europe)": {
+		"languages": ["En"]
+	},
+	"Mars Check Program (USA) (Auto Demo)": {
+		"languages": ["En"]
+	},
+	"Mars Check Program (USA) (Program)": {
+		"languages": ["En"]
+	},
+	"Mars Sample Program - Gnu Sierra (USA) (Auto Demo)": {
+		"languages": ["En"]
+	},
+	"Mars Sample Program - Pharaoh (USA) (Auto Demo)": {
+		"languages": ["En"]
+	},
+	"Mars Sample Program - Runlength Mode Test (USA) (Auto Demo)": {
+		"languages": ["En"]
+	},
+	"Mars Sample Program - Texture Test (USA) (Auto Demo)": {
+		"languages": ["En"]
+	},
+	"Mega Marble World 2 (World) (Proto) (Aftermarket) (Unl)": {
+		"languages": ["En"]
+	},
+	"Metal Head (Europe) (En,Ja)": {
+		"languages": ["En", "Ja"]
+	},
+	"Metal Head (Japan, USA) (En) (Beta 1)": {
+		"languages": ["En"]
+	},
+	"Metal Head (Japan, USA) (En) (Beta 2)": {
+		"languages": ["En"]
+	},
+	"Metal Head (Japan, USA) (En) (Beta 3)": {
+		"languages": ["En"]
+	},
+	"Metal Head (Japan, USA) (En) (Beta 4)": {
+		"languages": ["En"]
+	},
+	"Metal Head (Japan, USA) (En) (Beta 5)": {
+		"languages": ["En"]
+	},
+	"Metal Head (Japan, USA) (En) (Beta 6)": {
+		"languages": ["En"]
+	},
+	"Metal Head (Japan, USA) (En) (Beta 7)": {
+		"languages": ["En"]
+	},
+	"Metal Head (Japan, USA) (En) (Beta 8)": {
+		"languages": ["En"]
+	},
+	"Metal Head (Japan, USA) (En) (Beta 9)": {
+		"languages": ["En"]
+	},
+	"Metal Head (Japan, USA) (En,Ja)": {
+		"languages": ["En", "Ja"]
+	},
+	"Mortal Kombat II (Europe)": {
+		"languages": ["En"]
+	},
+	"Mortal Kombat II (Japan, USA) (En)": {
+		"languages": ["En"]
+	},
+	"Motherbase (Europe) (Sample)": {
+		"languages": ["En"]
+	},
+	"Motherbase (Europe)": {
+		"languages": ["En"]
+	},
+	"Motocross Championship (Europe)": {
+		"languages": ["En"]
+	},
+	"Motocross Championship (USA) (Beta 1)": {
+		"languages": ["En"]
+	},
+	"Motocross Championship (USA) (Beta 2)": {
+		"languages": ["En"]
+	},
+	"Motocross Championship (USA) (Beta 3)": {
+		"languages": ["En"]
+	},
+	"Motocross Championship (USA) (Beta 4)": {
+		"languages": ["En"]
+	},
+	"Motocross Championship (USA) (Beta 5)": {
+		"languages": ["En"]
+	},
+	"Motocross Championship (USA) (Beta 6)": {
+		"languages": ["En"]
+	},
+	"Motocross Championship (USA) (Beta 7)": {
+		"languages": ["En"]
+	},
+	"Motocross Championship (USA) (Beta 8)": {
+		"languages": ["En"]
+	},
+	"Motocross Championship (USA) (Beta 9)": {
+		"languages": ["En"]
+	},
+	"Motocross Championship (USA) (Beta 10)": {
+		"languages": ["En"]
+	},
+	"Motocross Championship (USA) (Beta 11)": {
+		"languages": ["En"]
+	},
+	"Motocross Championship (USA) (Beta 12)": {
+		"languages": ["En"]
+	},
+	"Motocross Championship (USA) (Beta 13)": {
+		"languages": ["En"]
+	},
+	"Motocross Championship (USA) (Beta 14)": {
+		"languages": ["En"]
+	},
+	"Motocross Championship (USA) (Beta 15)": {
+		"languages": ["En"]
+	},
+	"Motocross Championship (USA)": {
+		"languages": ["En"]
+	},
+	"NBA Jam - Tournament Edition (World)": {
+		"languages": ["En"]
+	},
+	"NFL Quarterback Club (World)": {
+		"languages": ["En"]
+	},
+	"OpenLara (World) (Demo) (Aftermarket) (Unl)": {
+		"languages": ["En"]
+	},
+	"Pinocchio (Europe) (Proto)": {
+		"languages": ["En"]
+	},
+	"Pinocchio (Unknown) (Beta) (1995-06-12)": {
+		"languages": ["En"]
+	},
+	"Pitfall - The Mayan Adventure (USA)": {
+		"languages": ["En"]
+	},
+	"Primal Rage (USA, Europe)": {
+		"languages": ["En"]
+	},
+	"RBI Baseball '95 (USA)": {
+		"languages": ["En"]
+	},
+	"Sangokushi IV (Japan)": {
+		"languages": ["Ja"],
+		"localName": "三國志ＩＶ"
+	},
+	"Sonic the Hedgehog (World) (Aftermarket) (Unl)": {
+		"languages": ["En"]
+	},
+	"Soulstar X (USA) (Proto)": {
+		"languages": ["En"]
+	},
+	"Space Harrier (Europe)": {
+		"languages": ["En"]
+	},
+	"Space Harrier (Japan, USA) (En) (Beta)": {
+		"languages": ["En"]
+	},
+	"Space Harrier (Japan, USA) (En)": {
+		"languages": ["En"]
+	},
+	"Spot Goes to Hollywood (USA) (Proto)": {
+		"languages": ["En"]
+	},
+	"Star Trek - Starfleet Academy - Starship Bridge Simulator (USA)": {
+		"languages": ["En"]
+	},
+	"Star Wars Arcade (Europe) (Beta 1)": {
+		"languages": ["En"]
+	},
+	"Star Wars Arcade (Europe) (Beta 2)": {
+		"languages": ["En"]
+	},
+	"Star Wars Arcade (Europe) (Beta 3)": {
+		"languages": ["En"]
+	},
+	"Star Wars Arcade (Europe) (Beta 4)": {
+		"languages": ["En"]
+	},
+	"Star Wars Arcade (Europe)": {
+		"languages": ["En"]
+	},
+	"Star Wars Arcade (Japan) (Beta 1)": {
+		"languages": ["Ja"]
+	},
+	"Star Wars Arcade (Japan) (Beta 2)": {
+		"languages": ["Ja"]
+	},
+	"Star Wars Arcade (Japan) (Beta 3)": {
+		"languages": ["Ja"]
+	},
+	"Star Wars Arcade (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Star Wars Arcade (USA) (Beta 1)": {
+		"languages": ["En"]
+	},
+	"Star Wars Arcade (USA) (Beta 2)": {
+		"languages": ["En"]
+	},
+	"Star Wars Arcade (USA) (Beta 3)": {
+		"languages": ["En"]
+	},
+	"Star Wars Arcade (USA) (Beta 4)": {
+		"languages": ["En"]
+	},
+	"Star Wars Arcade (USA) (Beta 5)": {
+		"languages": ["En"]
+	},
+	"Star Wars Arcade (USA) (Beta 6)": {
+		"languages": ["En"]
+	},
+	"Star Wars Arcade (USA) (Beta 7)": {
+		"languages": ["En"]
+	},
+	"Star Wars Arcade (USA) (Beta 8)": {
+		"languages": ["En"]
+	},
+	"Star Wars Arcade (USA) (Beta 9)": {
+		"languages": ["En"]
+	},
+	"Star Wars Arcade (USA) (Beta 10)": {
+		"languages": ["En"]
+	},
+	"Star Wars Arcade (USA) (Beta 11)": {
+		"languages": ["En"]
+	},
+	"Star Wars Arcade (USA)": {
+		"languages": ["En"]
+	},
+	"Stellar Assault (Japan) (En) (Beta 1)": {
+		"languages": ["En"]
+	},
+	"Stellar Assault (Japan) (En) (Beta 2)": {
+		"languages": ["En"]
+	},
+	"Stellar Assault (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Stellar Assault (USA, Europe) (Beta 1)": {
+		"languages": ["En"]
+	},
+	"Stellar Assault (USA, Europe) (Beta 2)": {
+		"languages": ["En"]
+	},
+	"Stellar Assault (USA, Europe) (Beta 3)": {
+		"languages": ["En"]
+	},
+	"Stellar Assault (USA, Europe) (Beta 4)": {
+		"languages": ["En"]
+	},
+	"Stellar Assault (USA, Europe) (Beta 5)": {
+		"languages": ["En"]
+	},
+	"Stellar Assault (USA, Europe)": {
+		"languages": ["En"]
+	},
+	"Sword of the Apocalypse (World) (En,De,Es,Pt) (Demo) (Aftermarket) (Unl)": {
+		"languages": ["De", "En", "Es", "Pt"]
+	},
+	"T-MEK (USA, Europe)": {
+		"languages": ["En"]
+	},
+	"Tempo (Japan, USA) (En) (Beta 1)": {
+		"languages": ["En"]
+	},
+	"Tempo (Japan, USA) (En) (Beta 2)": {
+		"languages": ["En"]
+	},
+	"Tempo (Japan, USA) (En) (Beta 3)": {
+		"languages": ["En"]
+	},
+	"Tempo (Japan, USA) (En) (Beta 4)": {
+		"languages": ["En"]
+	},
+	"Tempo (Japan, USA) (En) (Beta 5)": {
+		"languages": ["En"]
+	},
+	"Tempo (Japan, USA) (En) (Beta 6)": {
+		"languages": ["En"]
+	},
+	"Tempo (Japan, USA) (En) (Beta 7)": {
+		"languages": ["En"]
+	},
+	"Tempo (Japan, USA) (En) (Beta 8)": {
+		"languages": ["En"]
+	},
+	"Tempo (Japan, USA) (En)": {
+		"languages": ["En"]
+	},
+	"Toughman Contest (USA, Europe)": {
+		"languages": ["En"]
+	},
+	"Virtua Fighter (Europe)": {
+		"languages": ["En"]
+	},
+	"Virtua Fighter (Japan, USA) (En) (Beta 1)": {
+		"languages": ["En"]
+	},
+	"Virtua Fighter (Japan, USA) (En) (Beta 2)": {
+		"languages": ["En"]
+	},
+	"Virtua Fighter (Japan, USA) (En) (Beta 3)": {
+		"languages": ["En"]
+	},
+	"Virtua Fighter (Japan, USA) (En) (Beta 4)": {
+		"languages": ["En"]
+	},
+	"Virtua Fighter (Japan, USA) (En) (Beta 5)": {
+		"languages": ["En"]
+	},
+	"Virtua Fighter (Japan, USA) (En) (Beta 6)": {
+		"languages": ["En"]
+	},
+	"Virtua Fighter (Japan, USA) (En) (Beta 7)": {
+		"languages": ["En"]
+	},
+	"Virtua Fighter (Japan, USA) (En)": {
+		"languages": ["En"]
+	},
+	"Virtua Hamster (USA) (Proto)": {
+		"languages": ["En"]
+	},
+	"Virtua Racing Deluxe (Europe)": {
+		"languages": ["En"]
+	},
+	"Virtua Racing Deluxe (Japan)": {
+		"languages": ["Ja"]
+	},
+	"Virtua Racing Deluxe (USA) (Beta 1)": {
+		"languages": ["En"]
+	},
+	"Virtua Racing Deluxe (USA) (Beta 2)": {
+		"languages": ["En"]
+	},
+	"Virtua Racing Deluxe (USA) (Beta 3)": {
+		"languages": ["En"]
+	},
+	"Virtua Racing Deluxe (USA)": {
+		"languages": ["En"]
+	},
+	"Wolfenstein 3D (World) (Demo 1) (Aftermarket) (Unl)": {
+		"languages": ["En"]
+	},
+	"Wolfenstein 3D (World) (Demo 2) (Aftermarket) (Unl)": {
+		"languages": ["En"]
+	},
+	"Wolfenstein 3D (World) (Demo 3) (Aftermarket) (Unl)": {
+		"languages": ["En"]
+	},
+	"Wolfenstein 3D - Spear of Destiny (World) (Demo 1) (Aftermarket) (Unl)": {
+		"languages": ["En"]
+	},
+	"Wolfenstein 3D - Spear of Destiny (World) (Demo 2) (Aftermarket) (Unl)": {
+		"languages": ["En"]
+	},
+	"World Series Baseball Starring Deion Sanders (USA)": {
+		"languages": ["En"]
+	},
+	"WWF Raw (World)": {
+		"languages": ["En"]
+	},
+	"WWF WrestleMania - The Arcade Game (USA)": {
+		"languages": ["En"]
+	},
+	"X-Men (USA) (Proto)": {
+		"languages": ["En"]
+	},
+	"xRick (World) (Aftermarket) (Unl)": {
+		"languages": ["En"]
+	},
+	"xRick (World) (v1.1) (Aftermarket) (Unl)": {
+		"languages": ["En"]
+	},
+	"Yeti3D (World) (Demo 1) (Aftermarket) (Unl)": {
+		"languages": ["En"]
+	},
+	"Yeti3D (World) (Demo 2) (Aftermarket) (Unl)": {
+		"languages": ["En"]
+	},
+	"Zaxxon's Motherbase 2000 (Japan, USA) (En)": {
+		"languages": ["En"]
+	},
+	"Zaxxon's Motherbase (Japan, USA) (En) (Beta 1)": {
+		"languages": ["En"]
+	},
+	"Zaxxon's Motherbase (Japan, USA) (En) (Beta 2)": {
+		"languages": ["En"]
+	},
+	"Zaxxon's Motherbase (Japan, USA) (En) (Beta 3)": {
+		"languages": ["En"]
+	},
+	"Zaxxon's Motherbase (Japan, USA) (En) (Beta 4)": {
+		"languages": ["En"]
+	},
+	"Zaxxon's Motherbase (Japan, USA) (En) (Beta 5)": {
+		"languages": ["En"]
+	},
+	"Zaxxon's Motherbase (Japan, USA) (En) (Beta 6)": {
+		"languages": ["En"]
+	},
+	"Zaxxon's Motherbase (Japan, USA) (En) (Beta 7)": {
+		"languages": ["En"]
+	},
+	"Zaxxon's Motherbase (Japan, USA) (En) (Beta 8)": {
+		"languages": ["En"]
+	},
+	"Zaxxon's Motherbase (Japan, USA) (En) (Beta 9)": {
+		"languages": ["En"]
+	}
+}

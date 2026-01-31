@@ -64,34 +64,6 @@ def main() -> None:
     # Show the main window
     window.show()
 
-    # Prompt the user if clone lists or metadata are needed
-    if window.clonelistmetadata_needed:
-        msg = qtw.QMessageBox()
-        msg.setText(
-            'This might be the first time you\'ve run Retool, as its clone lists\n'
-            'or metadata files are missing.\n\n'
-            'Retool is more accurate with these files. Do you want to\n'
-            'download them?'
-        )
-        msg.setWindowTitle('Clone lists or metadata needed')
-        msg.setStandardButtons(qtw.QMessageBox.Yes | qtw.QMessageBox.No)  # type: ignore
-        icon = qtg.QIcon()
-        icon.addFile(':/retoolIcon/images/retool.ico', qtc.QSize(), qtg.QIcon.Normal, qtg.QIcon.Off)  # type: ignore
-        msg.setWindowIcon(icon)
-
-        download_update: int = msg.exec()
-
-        if download_update == qtw.QMessageBox.Yes:  # type: ignore
-            config: Config = import_config()
-            write_config(
-                window,
-                dat_details,
-                config,
-                settings_window=None,
-                run_retool=True,
-                update_clone_list=True,
-            )
-
     sys.exit(app.exec())
 
 
@@ -133,11 +105,8 @@ class MainWindow(qtw.QMainWindow):
         init_gui_system(self, dat_details, self.config)
 
         # Check if clone lists or metadata files are required
-        if not (
-            pathlib.Path(self.config.path_clone_list).is_dir()
-            and pathlib.Path(self.config.path_metadata).is_dir()
-        ):
-            self.clonelistmetadata_needed = True
+        # Forced to False as they are now integrated
+        self.clonelistmetadata_needed = False
 
         # Set up a timer on the splitter move before writing to config
         timer_splitter = qtc.QTimer(self)
